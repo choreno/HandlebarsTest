@@ -1,0 +1,4 @@
+D:\My Documents\Codes\HandlebarsTest\HandlebarsTest\obj\Debug\HandlebarsTest.njsprojResolveAssemblyReference.cache
+D:\My Documents\Codes\HandlebarsTest\HandlebarsTest\bin\Microsoft.NodejsTools.WebRole.dll
+D:\Codes\HandlebarsTest\HandlebarsTest\obj\Debug\HandlebarsTest.njsprojResolveAssemblyReference.cache
+D:\Codes\HandlebarsTest\HandlebarsTest\bin\Microsoft.NodejsTools.WebRole.dll
