@@ -43,10 +43,14 @@
 
 					{{#each months}}
 					<li style="margin-left:5px;margin-right:5px">
+						{{#if this}}
 						<button class="btn btn-sm navbar-btn">{{this}}</button>
+						{{else}}
+						&nbsp;&nbsp;&nbsp;
+						{{/if}}
 					</li>
 					{{/each}}
-
+					
 
 					<li style="margin-left:5px;margin-right:5px;margin-top:8px">
 
@@ -85,6 +89,7 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
 	<script type="text/javascript" src="/app.js"></script>
+	<script type="text/javascript" src="/home/home.controller.js"></script>
 
 </body>
 </html>

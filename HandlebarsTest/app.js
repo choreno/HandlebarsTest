@@ -28,11 +28,7 @@ var users = require('./app_server/routes/users');
 
 var routesApi = require('./app_api/routes/apiIndex'); 
 
-
-
-
 var app = express();
-
 
 var exphbs = require('express-handlebars');
 

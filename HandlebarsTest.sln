@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "HandlebarsTest", "HandlebarsTest\HandlebarsTest.njsproj", "{DD4AFCB3-46B4-4760-994F-C2CFE7D0CD5C}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "MigrateMongoDB", "..\MigrateMongoDB\MigrateMongoDB\MigrateMongoDB.njsproj", "{A0D3F579-0B2A-4AE3-BCC7-C0E0A0722B7F}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "MigrateMongoDB", "MigrateMongoDB\MigrateMongoDB\MigrateMongoDB.njsproj", "{A0D3F579-0B2A-4AE3-BCC7-C0E0A0722B7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

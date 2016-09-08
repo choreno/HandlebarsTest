@@ -3,20 +3,17 @@
 module.exports.angularSPA = function (req, res) {
 	res.render('angularSPA.handlebars', {
 
-		title: 'R+L Carriers - AnglularSPA',
-		months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+		title: 'R+L Carriers',
+		months: ['Jan', 'Feb', 'Mar', false, 'Apr', 'May', 'Jun', false, 'Jul', 'Aug', 'Sep', false, 'Oct', 'Nov', 'Dec'],
 		years: function () {
-			//Adding the target years
+		
 			var years = [];
 			var startYear = 2009;
-			var currentYear = 2016;
-
+			var currentYear = new Date().getFullYear();
 			for (var i = startYear + 1; i <= currentYear; i++) {
 				years.push(i);
 			}
-
 			return years; 
-
 		}
 
 	});

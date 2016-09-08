@@ -1,4 +1,4 @@
-﻿<div class="container-fluid">
+﻿<div class="container-fluid" ng-controller="homeCtrl">
 	<div class="row margin-t-1">
 		<h4>
 			<span>
@@ -25,28 +25,10 @@
 			</div>
 			<div class="col-sm-7">
 
-				<!--<div>
-					{{message}}
+				<div>
+					Page Header: {{vm.pageHeader}}
 				</div>
-				<ul>
 
-					{{#each folders}}
-					<li>
-
-						<a href="/folder/{{this._id}}">{{this.name}}</a>
-					</li>
-					{{/each}}
-
-				</ul>
-				<ul>
-
-					{{#if folderInfo}}
-					<li>
-						<a href="/">{{folderInfo.name}}</a>
-					</li>
-					{{/if}}
-
-				</ul>-->
 
 				<!-- Panel -->
 				<div class="panel panel-default">
