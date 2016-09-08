@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>a0d3f579-0b2a-4ae3-bcc7-c0e0a0722b7f</TargetProject>
+    <FriendlyName>MigrateMongoDB</FriendlyName>
+  </ProjectTarget>
+  <Reports>
+    <Report>
+      <Filename>D:\My Documents\Codes\MigrateMongoDB\MigrateMongoDB_20160817.vspx</Filename>
+    </Report>
+  </Reports>
+</ProfilingTarget>
