@@ -3,7 +3,7 @@
 		<h4>
 			<span>
 				<span class="glyphicon glyphicon-user"></span>
-				Anugular???
+				???
 				<span class="glyphicon glyphicon-time"></span>
 				12 Sep 2016 10:00 am
 			</span>
@@ -30,7 +30,7 @@
 				</div>
 
 				<ul>
-					<li ng-repeat="expense in vm.data">
+					<li ng-repeat="expense in vm.expenses">
 						{{expense.tab}}
 					</li>
 				</ul>
@@ -206,7 +206,13 @@
 						<h4 class="panel-title">Folders</h4>
 					</div>
 					<div class="panel-body">
-						<div class="flexCenter-ar">
+
+						<div class="flexCenter-ar" ng-repeat="folder in vm.folders">
+							<button class="btn btn-md btn-default  width100 margin-t-1">{{folder}}</button>
+							
+						</div>
+
+						<!--<div class="flexCenter-ar">
 							<button class="btn btn-md btn-default  width100">Housing</button>
 						</div>
 						<br />
@@ -216,7 +222,7 @@
 						<br />
 						<div class="flexCenter-ar width100">
 							<button class="btn btn-md btn-default width100">Utility</button>
-						</div>
+						</div>-->
 					</div>
 				</div>
 

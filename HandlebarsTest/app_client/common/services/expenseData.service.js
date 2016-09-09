@@ -4,26 +4,10 @@
 
 function expenseData($http) {
 
-	//var allExpneses = function () {
-	//	return $http.get('/api');
-	//};
-
-	//return {
-	//	allExpenses: allExpneses
-	//};
-
-	var temp = $http.get('/api');
-
-	//console.log(temp);
-
-	//var tt = function () {
-
-	//	return $http.get('/api');
-	//};
-
 	
-	return temp
-	
+	//var apiData = $http.get('/api');
+	return $http.get('/api');
+
 
 	//return [
 	//	{
@@ -39,9 +23,6 @@ function expenseData($http) {
 	//	}
 	//];
 
-
 }
-
-
 
 
