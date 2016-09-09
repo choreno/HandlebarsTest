@@ -29,6 +29,12 @@
 					Page Header: {{vm.pageHeader}}
 				</div>
 
+				<ul>
+					<li ng-repeat="expense in vm.data">
+						{{expense.tab}}
+					</li>
+				</ul>
+
 
 				<!-- Panel -->
 				<div class="panel panel-default">
